@@ -398,12 +398,12 @@ footer .most-bottom{
     }
 
     .person{
-        width: 100%;
+        width: 400px;
         transform: none;
     }
 
     .person-1{
-        width: 100%;
+        width: 400px;
         transform: none;
         margin-left: 3px;
     }
@@ -479,17 +479,21 @@ footer .most-bottom{
 
     .big-title{
         font-size: 1.1rem;
+        max-width: 400px;
+        font-size: small;
+        align-items: center;
+        text-align: center;
     }
 
     .text{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin: 1.4rem 0 1.5rem;
         letter-spacing: 0;
         justify-content: center;
         align-items: center;
         text-align: justify;
         line-height: 1.5rem;
-        max-width: 500px;
+        max-width: 400px;
     }
 
     .logo h3{
@@ -505,37 +509,81 @@ footer .most-bottom{
         color: red;
         margin-left: 10px;
         border-radius: 20px;
+        max-width: 400px;
+    }
+
+    .right h1{
+        max-width: 400px;
+    }
+
+    .proofs img{
+        width: 300px;
+    }
+
+    .proofs{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
 @media screen and (max-width: 470px) {
+    .proofs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .right h1{
+        max-width: 300px;
+    }
+
+    .proofs img{
+        width: 200px;
+    }
+
     .container{
         padding: 0 1.5rem;
+        align-items: center;
     }
 
     .big-title{
-        font-size: .9rem;
+        font-size: .6rem;
+        text-align: center;
+        max-width: 400px;
     }
 
     .text{
         margin: 1.1rem 0 1.5rem;
+        max-width: 400px;
     }
 
     .text-white{
-        margin-left: 5px;
+        margin-left: -10px;
         background-color: red;
+        text-align: center;
+        font-size: x-small;
+        max-width: 300px;
     }
 
     .showcase-area .btn{
         font-size: .8rem;
     }
 
+    .person{
+        width: 300px;
+        margin: auto;
+    }
+
     .person-1{
-        width: 280px;
+        width: 250px;
     }
 
     #about h2{
         margin-left: 50px;
         text-align: center;
+        max-width: 300px;
+    }
+
+    .video-1{
+        width: 50%;
     }
 }
