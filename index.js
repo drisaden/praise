@@ -1,3 +1,4 @@
+// SCRIPT FOR THE TOGGLE Button
 let toggleBtn;
 let bigWrapper;
 let hamburgerMenu;
@@ -48,6 +49,7 @@ function events() {
 
 events();
 
+// SCRIPT FOR BACK TO TOP BUTTON
 let myButton = document.getElementById("myBtn");
 
 window.onscroll = function () {
