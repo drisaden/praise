@@ -565,22 +565,22 @@ footer .most-bottom{
     }
 
     .big-title{
-        font-size: .6rem;
+        font-size: 1.2rem;
         text-align: center;
-        max-width: 280px;
+        max-width: 300px;
     }
 
     .text{
         margin: 1.1rem 0 1.5rem;
-        max-width: 280px;
+        max-width: 330px;
         font-size: 12px;
     }
 
     .text-white{
-        margin-left: -10px;
+        margin-left: 2px;
         background-color: red;
         text-align: center;
-        font-size: x-small;
+        font-size: small;
         max-width: 280px;
         color: white;
     }
@@ -590,19 +590,25 @@ footer .most-bottom{
     }
 
     .person{
-        width: 350px;
+        width: 330px;
         margin: auto;
         height: 400px;
     }
 
     .person-1{
         width: 330px;
+        height: 400px;
     }
 
     #about h2{
-        margin-left: -10px;
+        margin-left: -5px;
         text-align: center;
         max-width: 280px;
+    }
+
+    main{
+        padding: 0 2px;
+        margin: 0 4px;
     }
 }
 
