@@ -577,11 +577,12 @@ footer .most-bottom{
     }
 
     .text-white{
-        margin-left: -50px;
+        margin-left: -10px;
         background-color: red;
         text-align: center;
         font-size: x-small;
         max-width: 280px;
+        color: white;
     }
 
     .showcase-area .btn{
@@ -602,10 +603,6 @@ footer .most-bottom{
         margin-left: -10px;
         text-align: center;
         max-width: 280px;
-    }
-
-    .video-1{
-        width: 50%;
     }
 }
 
